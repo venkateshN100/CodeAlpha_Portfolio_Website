@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>welcome to portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Asap|Comfortaa|Gudea|Hind+Guntur|Hind+Madurai|Hind+Vadodara|Maven+Pro|Ropa+Sans|Source+Code+Pro" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="hero">
+		<h1>Venkatesh's portfolio</h1>
+		<h2>take a step into about me</h2>
+	</div>
+	<div class="container">
+	<nav>
+		<a href="index.html" class="button">homepage</a>
+		<a href="about.html" class="button">about me</a>
+		<a href="classes.html" class="button">Education</a>
+		<a href="projects.html" class="button">My projects</a>
+		<a href="contact.html" class="button">contact me</a>
+	</nav>
+		<main role="main">
+			<form action="/submit_contact_form" method="POST">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required><br>
+			
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required><br>
+			
+				<label for="message">Message:</label><br>
+				<textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+			
+				<input type="submit" value="Submit">
+			  </form>
+		</main>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="social">
+				<a href="https://github.com/Venkatesh-Nagaraj"><img src="images/github.png" height="36" width="36" alt="github logo"></a>
+				<a href="www.linkedin.com/in/venkatesh-n-b062ba248"><img src="images/linkedin.png" height="36" width="36" alt="linkedin logo"></a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
